@@ -254,6 +254,15 @@ ponto, iteracoes = gradient_descent_variable_step()
 print(f"Ponto mínimo com passo variável: {ponto}, Iterações: {iteracoes}")
 ```
 
+**Resultados observados:**
+
+```
+Ponto inicial: (0, 0)
+α=0.10 → Ponto minimo: (-0.2727285486985472, -0.36363095853530786)
+Iterações: 56
+```
+
+
 **Comparativo:**
 
 * O passo variável tende a suavizar a convergência, evitando oscilações, mas pode exigir mais iterações.
